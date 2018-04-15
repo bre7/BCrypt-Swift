@@ -1,0 +1,7 @@
+module bcrypt_openwall [system][extern_c] {
+    header "crypt_blowfish.h"
+    header "crypt_gensalt.h"
+    header "crypt.h"
+    header "ow-crypt.h"
+    export *
+}

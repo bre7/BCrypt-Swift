@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B998EB2083CDBC0072B995 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B998EA2083CDBC0072B995 /* main.swift */; };
+		24B999132083D0510072B995 /* crypt_gensalt.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B999032083D0510072B995 /* crypt_gensalt.c */; };
+		24B999162083D0510072B995 /* wrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9990A2083D0510072B995 /* wrapper.c */; };
+		24B999172083D0510072B995 /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9990E2083D0510072B995 /* crypt_blowfish.c */; };
+		24B99995208407840072B995 /* bcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9998C208407840072B995 /* bcrypt.c */; };
+		24B9999A208408580072B995 /* URandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B99999208408580072B995 /* URandom.swift */; };
+		24B9999C2084087F0072B995 /* BCrypt_OpenWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */; };
+		24B9999E208408B40072B995 /* BCrypt_OpenBSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */; };
+		24B999A120840AE10072B995 /* blf.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B999A020840AE10072B995 /* blf.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24B998E52083CDBC0072B995 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24B998E72083CDBC0072B995 /* bcrypt-demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bcrypt-demo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B998EA2083CDBC0072B995 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		24B999032083D0510072B995 /* crypt_gensalt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_gensalt.c; sourceTree = "<group>"; };
+		24B999072083D0510072B995 /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
+		24B9990A2083D0510072B995 /* wrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wrapper.c; sourceTree = "<group>"; };
+		24B9990B2083D0510072B995 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		24B9990C2083D0510072B995 /* crypt_gensalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_gensalt.h; sourceTree = "<group>"; };
+		24B9990E2083D0510072B995 /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_blowfish.c; sourceTree = "<group>"; };
+		24B9990F2083D0510072B995 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		24B999112083D0510072B995 /* ow-crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ow-crypt.h"; sourceTree = "<group>"; };
+		24B9998C208407840072B995 /* bcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcrypt.c; sourceTree = "<group>"; };
+		24B99991208407840072B995 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		24B99999208408580072B995 /* URandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URandom.swift; sourceTree = "<group>"; };
+		24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCrypt_OpenWall.swift; sourceTree = "<group>"; };
+		24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCrypt_OpenBSD.swift; sourceTree = "<group>"; };
+		24B9999F20840ABE0072B995 /* blf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blf.h; sourceTree = "<group>"; };
+		24B999A020840AE10072B995 /* blf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blf.c; sourceTree = "<group>"; };
+		24B999A220840CC20072B995 /* bcryptc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bcryptc.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B998E42083CDBC0072B995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B998DE2083CDBB0072B995 = {
+			isa = PBXGroup;
+			children = (
+				24B998E92083CDBC0072B995 /* bcrypt-demo */,
+				24B998E82083CDBC0072B995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B998E82083CDBC0072B995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B998E72083CDBC0072B995 /* bcrypt-demo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B998E92083CDBC0072B995 /* bcrypt-demo */ = {
+			isa = PBXGroup;
+			children = (
+				24B998EA2083CDBC0072B995 /* main.swift */,
+				24B99999208408580072B995 /* URandom.swift */,
+				24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */,
+				24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */,
+				24B99989208407840072B995 /* bcrypt-c-openbsd */,
+				24B999012083D0510072B995 /* bcrypt-c-openwall */,
+			);
+			path = "bcrypt-demo";
+			sourceTree = "<group>";
+		};
+		24B999012083D0510072B995 /* bcrypt-c-openwall */ = {
+			isa = PBXGroup;
+			children = (
+				24B999032083D0510072B995 /* crypt_gensalt.c */,
+				24B999072083D0510072B995 /* crypt_blowfish.h */,
+				24B9990A2083D0510072B995 /* wrapper.c */,
+				24B9990B2083D0510072B995 /* crypt.h */,
+				24B9990C2083D0510072B995 /* crypt_gensalt.h */,
+				24B9990E2083D0510072B995 /* crypt_blowfish.c */,
+				24B9990F2083D0510072B995 /* module.modulemap */,
+				24B999112083D0510072B995 /* ow-crypt.h */,
+			);
+			path = "bcrypt-c-openwall";
+			sourceTree = "<group>";
+		};
+		24B99989208407840072B995 /* bcrypt-c-openbsd */ = {
+			isa = PBXGroup;
+			children = (
+				24B999A220840CC20072B995 /* bcryptc.h */,
+				24B9998C208407840072B995 /* bcrypt.c */,
+				24B9999F20840ABE0072B995 /* blf.h */,
+				24B999A020840AE10072B995 /* blf.c */,
+				24B99991208407840072B995 /* module.modulemap */,
+			);
+			path = "bcrypt-c-openbsd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B998E62083CDBC0072B995 /* bcrypt-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B998EE2083CDBC0072B995 /* Build configuration list for PBXNativeTarget "bcrypt-demo" */;
+			buildPhases = (
+				24B998E32083CDBC0072B995 /* Sources */,
+				24B998E42083CDBC0072B995 /* Frameworks */,
+				24B998E52083CDBC0072B995 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bcrypt-demo";
+			productName = "bcrypt-demo";
+			productReference = 24B998E72083CDBC0072B995 /* bcrypt-demo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B998DF2083CDBB0072B995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					24B998E62083CDBC0072B995 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 24B998E22083CDBB0072B995 /* Build configuration list for PBXProject "bcrypt-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24B998DE2083CDBB0072B995;
+			productRefGroup = 24B998E82083CDBC0072B995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B998E62083CDBC0072B995 /* bcrypt-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B998E32083CDBC0072B995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B9999C2084087F0072B995 /* BCrypt_OpenWall.swift in Sources */,
+				24B9999A208408580072B995 /* URandom.swift in Sources */,
+				24B999162083D0510072B995 /* wrapper.c in Sources */,
+				24B999A120840AE10072B995 /* blf.c in Sources */,
+				24B998EB2083CDBC0072B995 /* main.swift in Sources */,
+				24B999172083D0510072B995 /* crypt_blowfish.c in Sources */,
+				24B999132083D0510072B995 /* crypt_gensalt.c in Sources */,
+				24B99995208407840072B995 /* bcrypt.c in Sources */,
+				24B9999E208408B40072B995 /* BCrypt_OpenBSD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24B998EC2083CDBC0072B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24B998ED2083CDBC0072B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24B998EF2083CDBC0072B995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/bcrypt-demo/bcrypt-c-openbsd ${SRCROOT}/bcrypt-demo/bcrypt-c-openwall";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		24B998F02083CDBC0072B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/bcrypt-demo/bcrypt-c-openbsd ${SRCROOT}/bcrypt-demo/bcrypt-c-openwall";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B998E22083CDBB0072B995 /* Build configuration list for PBXProject "bcrypt-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B998EC2083CDBC0072B995 /* Debug */,
+				24B998ED2083CDBC0072B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B998EE2083CDBC0072B995 /* Build configuration list for PBXNativeTarget "bcrypt-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B998EF2083CDBC0072B995 /* Debug */,
+				24B998F02083CDBC0072B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B998DF2083CDBB0072B995 /* Project object */;
+}
