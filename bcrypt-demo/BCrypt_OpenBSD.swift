@@ -50,11 +50,11 @@ public struct BCrypt_BSD {
     ///
     /// Allowed charset for the salt: [./A-Za-z0-9]
     private func generateSalt() -> String? {
-        guard let salt = try? URandom().string(count: 16)
+        guard let random = try? URandom().bytes(count: 16)
             else { return nil }
 
         let encodedSaltBytes = UnsafeMutablePointer<Int8>.allocate(capacity: 25)
-        encode_base64(encodedSaltBytes, salt, salt.count)
+        encode_base64(encodedSaltBytes, random, random.count)
 
         let encodedSalt = String(cString: encodedSaltBytes)
 
@@ -92,7 +92,7 @@ public struct BCrypt_BSD {
             normalizedSalt = salt
         }
 
-        let hashedBytes = UnsafeMutablePointer<Int8>.allocate(capacity: 1000)
+        let hashedBytes = UnsafeMutablePointer<Int8>.allocate(capacity: 128)
         defer { hashedBytes.deallocate() }
         let hashingResult = bcrypt_hashpass(
             message,
@@ -101,7 +101,7 @@ public struct BCrypt_BSD {
             128
         )
 
-        if hashingResult == 0 {
+        if hashingResult != 0 {
             return nil
         } else {
             return originalAlgorithm + String(cString: hashedBytes).dropFirst(algorithm.revisionCount)
