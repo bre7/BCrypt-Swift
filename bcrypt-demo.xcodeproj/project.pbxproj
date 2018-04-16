@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243C02D120841F6000928BB4 /* crypt_gensalt.c in Sources */ = {isa = PBXBuildFile; fileRef = 243C02C320841F6000928BB4 /* crypt_gensalt.c */; };
+		243C02D220841F6000928BB4 /* wrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 243C02C520841F6000928BB4 /* wrapper.c */; };
+		243C02D320841F6000928BB4 /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 243C02C820841F6000928BB4 /* crypt_blowfish.c */; };
+		243C02D420841F6000928BB4 /* bcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 243C02CE20841F6000928BB4 /* bcrypt.c */; };
+		243C02D520841F6000928BB4 /* blf.c in Sources */ = {isa = PBXBuildFile; fileRef = 243C02CF20841F6000928BB4 /* blf.c */; };
 		24B998EB2083CDBC0072B995 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B998EA2083CDBC0072B995 /* main.swift */; };
-		24B999132083D0510072B995 /* crypt_gensalt.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B999032083D0510072B995 /* crypt_gensalt.c */; };
-		24B999162083D0510072B995 /* wrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9990A2083D0510072B995 /* wrapper.c */; };
-		24B999172083D0510072B995 /* crypt_blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9990E2083D0510072B995 /* crypt_blowfish.c */; };
-		24B99995208407840072B995 /* bcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B9998C208407840072B995 /* bcrypt.c */; };
 		24B9999A208408580072B995 /* URandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B99999208408580072B995 /* URandom.swift */; };
 		24B9999C2084087F0072B995 /* BCrypt_OpenWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */; };
 		24B9999E208408B40072B995 /* BCrypt_OpenBSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */; };
-		24B999A120840AE10072B995 /* blf.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B999A020840AE10072B995 /* blf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,24 +31,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		243C02C320841F6000928BB4 /* crypt_gensalt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_gensalt.c; sourceTree = "<group>"; };
+		243C02C420841F6000928BB4 /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
+		243C02C520841F6000928BB4 /* wrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wrapper.c; sourceTree = "<group>"; };
+		243C02C620841F6000928BB4 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		243C02C720841F6000928BB4 /* crypt_gensalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_gensalt.h; sourceTree = "<group>"; };
+		243C02C820841F6000928BB4 /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_blowfish.c; sourceTree = "<group>"; };
+		243C02C920841F6000928BB4 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		243C02CA20841F6000928BB4 /* ow-crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ow-crypt.h"; sourceTree = "<group>"; };
+		243C02CC20841F6000928BB4 /* blf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blf.h; sourceTree = "<group>"; };
+		243C02CD20841F6000928BB4 /* bcryptc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcryptc.h; sourceTree = "<group>"; };
+		243C02CE20841F6000928BB4 /* bcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcrypt.c; sourceTree = "<group>"; };
+		243C02CF20841F6000928BB4 /* blf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blf.c; sourceTree = "<group>"; };
+		243C02D020841F6000928BB4 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		24B998E72083CDBC0072B995 /* bcrypt-demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bcrypt-demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B998EA2083CDBC0072B995 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		24B999032083D0510072B995 /* crypt_gensalt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_gensalt.c; sourceTree = "<group>"; };
-		24B999072083D0510072B995 /* crypt_blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_blowfish.h; sourceTree = "<group>"; };
-		24B9990A2083D0510072B995 /* wrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wrapper.c; sourceTree = "<group>"; };
-		24B9990B2083D0510072B995 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		24B9990C2083D0510072B995 /* crypt_gensalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt_gensalt.h; sourceTree = "<group>"; };
-		24B9990E2083D0510072B995 /* crypt_blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt_blowfish.c; sourceTree = "<group>"; };
-		24B9990F2083D0510072B995 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		24B999112083D0510072B995 /* ow-crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ow-crypt.h"; sourceTree = "<group>"; };
-		24B9998C208407840072B995 /* bcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcrypt.c; sourceTree = "<group>"; };
-		24B99991208407840072B995 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		24B99999208408580072B995 /* URandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URandom.swift; sourceTree = "<group>"; };
 		24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCrypt_OpenWall.swift; sourceTree = "<group>"; };
 		24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCrypt_OpenBSD.swift; sourceTree = "<group>"; };
-		24B9999F20840ABE0072B995 /* blf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blf.h; sourceTree = "<group>"; };
-		24B999A020840AE10072B995 /* blf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blf.c; sourceTree = "<group>"; };
-		24B999A220840CC20072B995 /* bcryptc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bcryptc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243C02C220841F6000928BB4 /* bcrypt-c-openwall */ = {
+			isa = PBXGroup;
+			children = (
+				243C02C320841F6000928BB4 /* crypt_gensalt.c */,
+				243C02C420841F6000928BB4 /* crypt_blowfish.h */,
+				243C02C520841F6000928BB4 /* wrapper.c */,
+				243C02C620841F6000928BB4 /* crypt.h */,
+				243C02C720841F6000928BB4 /* crypt_gensalt.h */,
+				243C02C820841F6000928BB4 /* crypt_blowfish.c */,
+				243C02C920841F6000928BB4 /* module.modulemap */,
+				243C02CA20841F6000928BB4 /* ow-crypt.h */,
+			);
+			path = "bcrypt-c-openwall";
+			sourceTree = "<group>";
+		};
+		243C02CB20841F6000928BB4 /* bcrypt-c-openbsd */ = {
+			isa = PBXGroup;
+			children = (
+				243C02CC20841F6000928BB4 /* blf.h */,
+				243C02CD20841F6000928BB4 /* bcryptc.h */,
+				243C02CE20841F6000928BB4 /* bcrypt.c */,
+				243C02CF20841F6000928BB4 /* blf.c */,
+				243C02D020841F6000928BB4 /* module.modulemap */,
+			);
+			path = "bcrypt-c-openbsd";
+			sourceTree = "<group>";
+		};
 		24B998DE2083CDBB0072B995 = {
 			isa = PBXGroup;
 			children = (
@@ -81,41 +108,14 @@
 		24B998E92083CDBC0072B995 /* bcrypt-demo */ = {
 			isa = PBXGroup;
 			children = (
+				243C02CB20841F6000928BB4 /* bcrypt-c-openbsd */,
+				243C02C220841F6000928BB4 /* bcrypt-c-openwall */,
 				24B998EA2083CDBC0072B995 /* main.swift */,
 				24B99999208408580072B995 /* URandom.swift */,
 				24B9999B2084087F0072B995 /* BCrypt_OpenWall.swift */,
 				24B9999D208408B40072B995 /* BCrypt_OpenBSD.swift */,
-				24B99989208407840072B995 /* bcrypt-c-openbsd */,
-				24B999012083D0510072B995 /* bcrypt-c-openwall */,
 			);
 			path = "bcrypt-demo";
-			sourceTree = "<group>";
-		};
-		24B999012083D0510072B995 /* bcrypt-c-openwall */ = {
-			isa = PBXGroup;
-			children = (
-				24B999032083D0510072B995 /* crypt_gensalt.c */,
-				24B999072083D0510072B995 /* crypt_blowfish.h */,
-				24B9990A2083D0510072B995 /* wrapper.c */,
-				24B9990B2083D0510072B995 /* crypt.h */,
-				24B9990C2083D0510072B995 /* crypt_gensalt.h */,
-				24B9990E2083D0510072B995 /* crypt_blowfish.c */,
-				24B9990F2083D0510072B995 /* module.modulemap */,
-				24B999112083D0510072B995 /* ow-crypt.h */,
-			);
-			path = "bcrypt-c-openwall";
-			sourceTree = "<group>";
-		};
-		24B99989208407840072B995 /* bcrypt-c-openbsd */ = {
-			isa = PBXGroup;
-			children = (
-				24B999A220840CC20072B995 /* bcryptc.h */,
-				24B9998C208407840072B995 /* bcrypt.c */,
-				24B9999F20840ABE0072B995 /* blf.h */,
-				24B999A020840AE10072B995 /* blf.c */,
-				24B99991208407840072B995 /* module.modulemap */,
-			);
-			path = "bcrypt-c-openbsd";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,13 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B9999C2084087F0072B995 /* BCrypt_OpenWall.swift in Sources */,
+				243C02D320841F6000928BB4 /* crypt_blowfish.c in Sources */,
+				243C02D220841F6000928BB4 /* wrapper.c in Sources */,
 				24B9999A208408580072B995 /* URandom.swift in Sources */,
-				24B999162083D0510072B995 /* wrapper.c in Sources */,
-				24B999A120840AE10072B995 /* blf.c in Sources */,
 				24B998EB2083CDBC0072B995 /* main.swift in Sources */,
-				24B999172083D0510072B995 /* crypt_blowfish.c in Sources */,
-				24B999132083D0510072B995 /* crypt_gensalt.c in Sources */,
-				24B99995208407840072B995 /* bcrypt.c in Sources */,
+				243C02D420841F6000928BB4 /* bcrypt.c in Sources */,
+				243C02D520841F6000928BB4 /* blf.c in Sources */,
+				243C02D120841F6000928BB4 /* crypt_gensalt.c in Sources */,
 				24B9999E208408B40072B995 /* BCrypt_OpenBSD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
