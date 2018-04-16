@@ -1,0 +1,4 @@
+module bcrypt_openbsd [system][extern_c] {
+ header "bcryptc.h"
+ export *
+}
