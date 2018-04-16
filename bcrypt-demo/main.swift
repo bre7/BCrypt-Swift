@@ -25,6 +25,8 @@ for test in tests.enumerated() {
     }
 }
 
+print("===========")
+
 let bcryptOW = try BCrypt_OW(cost: 5)
 for test in tests.enumerated() {
     if bcryptOW.validate(message: test.element.value, hashed: test.element.key) {
