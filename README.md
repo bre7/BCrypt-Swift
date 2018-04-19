@@ -1,4 +1,4 @@
-Abandonded:
+Abandoned:
 
 Implementation added to Vapor: https://github.com/vapor/crypto/blob/master/Sources/Crypto/BCrypt/BCryptDigest.swift
 
